@@ -136,7 +136,50 @@
   }
 
   .text-outline-hover {
-    -webkit-text-stroke: 1px #00ff99;
+    -webkit-text-stroke: 1px #7DD3FC;
     color: transparent;
   }
+}
+
+/* Google Translate Custom Styles */
+body {
+  top: 0 !important;
+}
+
+.skiptranslate iframe {
+  display: none !important;
+}
+
+#google_translate_element select {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: white;
+  border: 1px solid rgba(125, 211, 252, 0.3);
+  border-radius: 9999px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  backdrop-filter: blur(10px);
+}
+
+#google_translate_element select:hover {
+  border-color: rgba(125, 211, 252, 0.8);
+  background-color: rgba(125, 211, 252, 0.1);
+}
+
+#google_translate_element select option {
+  background-color: #0A0A0A;
+  color: white;
+}
+
+/* Hide Google's logo and extra text inside the widget */
+.goog-te-gadget {
+  color: transparent !important;
+  font-size: 0px !important;
+}
+.goog-te-gadget .goog-te-combo {
+  margin: 0 !important;
+}
+.goog-logo-link {
+  display: none !important;
 }

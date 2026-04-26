@@ -20,7 +20,7 @@ const Stairs = () => {
     <>
         {[...Array(10)].map((_, index) => {
             return (
-                <motion.dev
+                <motion.div
                 key={index}
                 variants={StairsAnimation}
                 initial="initial"
