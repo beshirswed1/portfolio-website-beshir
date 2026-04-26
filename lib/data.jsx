@@ -182,8 +182,8 @@ export const projects = [
   {
     num: "05",
     category: "Full-Stack",
-    title: "أثر – إدارة مكتبتك الإلكترونية",
-    description: "منصة ويب متكاملة لإدارة المكتبة الشخصية رقمياً، تعالج مشكلة فقدان تتبع الكتب المقروءة والمخطط لقراءتها. توفر نظام تصنيف وتتبع حالة القراءة مع إحصائيات دقيقة.",
+    title: "Athar - Digital Library Management",
+    description: "A comprehensive web platform for managing your personal library digitally. It solves the problem of losing track of read and to-read books, providing a categorization system, reading status tracking, and precise statistics.",
     stack: [
       { name: 'Next.js', icon: <SiNextdotjs /> },
       { name: 'React', icon: <FaReact /> },
@@ -198,8 +198,8 @@ export const projects = [
   {
     num: "06",
     category: "E-Commerce",
-    title: "متجر إلكتروني مع لوحة تحكم",
-    description: "منصة تجارة إلكترونية متكاملة مع فصل واضح بين طبقة العرض وطبقة البيانات. يوفر تصفية متقدمة، تصنيف ديناميكي، وإدارة سلة شراء، مع لوحة تحكم إدارية شاملة.",
+    title: "E-Commerce Store with Dashboard",
+    description: "A complete e-commerce platform with a clear separation between the presentation and data layers. It offers advanced filtering, dynamic categorization, and shopping cart management, along with a comprehensive administrative dashboard.",
     stack: [
       { name: 'React', icon: <FaReact /> },
       { name: 'Redux Toolkit', icon: <TbBrandRedux /> },
@@ -213,8 +213,8 @@ export const projects = [
   {
     num: "07",
     category: "Full-Stack",
-    title: "katmerci emre",
-    description: "موقع منيو كامل وإدارة مطعم وإدارة طلبات بشكل متكامل جدا بتجربة سلسة وميزات كبيرة مثل تعدد أكثر من 6 لغات وإدارة مخزون وإتمام الطلبات بلوحات مراقبة ممتعة.",
+    title: "Katmerci Emre",
+    description: "A complete menu and restaurant management website with integrated order management. It offers a seamless experience with features like multi-language support (6+ languages), inventory management, and order fulfillment with enjoyable monitoring dashboards.",
     stack: [
       { name: 'React', icon: <FaReact /> },
       { name: 'TailwindCSS', icon: <SiTailwindcss /> },
@@ -228,7 +228,7 @@ export const projects = [
     num: "08",
     category: "Entertainment",
     title: "SYRBEAST",
-    description: "موقع للأفلام والمسلسلات متكامل بتقييمات ونظام فرز وفلترة وترجيحات بشكل متكامل مع REST API من واجهات خارجية. الموقع سلس وسهل بسيط ويحتوي على داتا ضخمة بشكل مرتب ومنظم.",
+    description: "A comprehensive movies and TV series website featuring ratings, a full sorting and filtering system, and recommendations integrated with external REST APIs. The site is smooth, simple, and handles huge data in an organized and structured way.",
     stack: [
       { name: 'React', icon: <FaReact /> },
       { name: 'JavaScript', icon: <SiJavascript /> },
