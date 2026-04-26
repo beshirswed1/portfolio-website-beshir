@@ -53,7 +53,7 @@ export const metadata = {
     siteName: "Beshir Swed Portfolio",
     images: [
       {
-        url: "/assets/preview.png",
+        url: "https://beshir-swed.vercel.app/assets/preview.png",
         width: 1200,
         height: 630,
         alt: "Beshir Swed Portfolio",
@@ -68,7 +68,7 @@ export const metadata = {
     site: "@BeshirSwed",
     title: "BESHIR SWED | Front-End Developer",
     description: "Creative Front-End Developer specializing in React and Next.js.",
-    images: ["/assets/preview.png"],
+    images: ["https://beshir-swed.vercel.app/assets/preview.png"],
   },
 };
 
